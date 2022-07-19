@@ -4,7 +4,7 @@
 let name = "Джон";
 let admin = name;
 
-alert(admin)
+alert(admin);
 
 //Задание 2
 for (let i = 2; i < 11; i += 2)
@@ -19,7 +19,7 @@ while (i < 11)
 {
     alert(i);
     i += 2;
-}
+};
 
 //Задание 4
 let num;
@@ -37,36 +37,36 @@ let age = prompt(title);
 
 if(age >= 13 && age <= 90)
 {
-    alert("Уже не малыш!")
+    alert("Уже не малыш!");
 } else if (age < 13)
 {
-    alert("Малыш!")
+    alert("Малыш!");
 } else 
 {
-    alert("Пыль!")
-}
+    alert("Пыль!");
+};
 
 //Задание 6
 age = prompt(title);
 
 if(!(age >= 13 && age <= 90))
 {
-    alert("Ты малыш или пыль?")
+    alert("Ты малыш или пыль?");
 } else
 {
-    alert("Вам еще можно работать!")
-}
+    alert("Вам еще можно работать!");
+};
 
 //Задание 7
 age = prompt(title);
 
 if(age < 13 || age > 90)
 {
-    alert("Ты малыш или пыль?")
+    alert("Ты малыш или пыль?");
 } else
 {
-    alert("Вам еще можно работать!")
-}
+    alert("Вам еще можно работать!");
+};
 
 //Задание 8
 function makeNegative(num)
@@ -93,27 +93,26 @@ function isDivisible(n, x, y)
         }
         alert(`false because ${n} is not divisible by ${x}`);
         return false;
-    }
+    };
     if (n % y != 0)
     {
         alert(`false because ${n} is not divisible by ${y}`);
         return false;
-    }
+    };
     alert(`true because ${n} is divisible by ${x} and ${y}`);
     return true;
 }
 
-isDivisible(3, 1, 3)
-isDivisible(12, 2, 6)
-isDivisible(100, 5, 3)
-isDivisible(12, 7, 5)
-isDivisible(15, 7, 5)
+isDivisible(3, 1, 3);
+isDivisible(12, 2, 6);
+isDivisible(100, 5, 3);
+isDivisible(12, 7, 5);
+isDivisible(15, 7, 5);
 
 //Задание 10
 function sum(numbers)
 {
     let sum = 0;
-
     numbers.forEach(num => sum += num);
 
     return sum;
