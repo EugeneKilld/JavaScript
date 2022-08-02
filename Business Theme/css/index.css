@@ -1,0 +1,124 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'lato', sans-serif;
+    color: 000;
+    font-size: 16;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+ul, li {
+    display: block;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+header a {
+    color: #000;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    padding-left: 10px;
+}
+
+.menu li a {
+    margin-right: 20px;
+}
+
+.nav {
+    display: flex;
+    margin-top: 22px;
+    margin-bottom: 23px;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 312px;
+}
+
+.home {
+    display: block;
+    height: 20px;
+    width: 60px;
+    background-color: rgb(255, 187,66);
+    text-align: center;
+    margin-top: 7px;
+    padding: 5px;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+.banner {
+    background: url('../img/banner-background.png') no-repeat center top;
+    padding-top: 111px;
+    font-family: open sans, regular;
+}
+
+.bannerTextTitle {
+    font-size: 35px;
+    letter-spacing: -1px;
+    line-height: 24px;
+    color: #ffffff;
+    text-align: center;
+    word-spacing: 5px;
+}
+
+.bannerTextUnderTitle {
+    letter-spacing: -1px;
+    line-height: 24px;
+    color: #ffffff;
+    text-align: center;
+    word-spacing: 5px;
+}
+
+.requestQuote {    
+    display: flex;
+    margin-top: 32px;
+}
+
+.labelForData {    
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    width: 250px;
+    height: 15px;
+    padding: 16px;
+    margin-right: 9px;
+}
+
+.form-control {
+    width: 100%;
+    border: 1px solid #fff;
+    background-color: #fff;
+    margin-left: 13px;    
+    font-family: open sans, regular;
+}
+
+.btn-request-quote {
+    background-color: #ffbb42;
+    width: 212px;
+    height: 47px;
+    line-height: 24px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: open sans, regular;    
+    border: 0px;
+}
+
+.btn-request-quote:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
