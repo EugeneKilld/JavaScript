@@ -21,7 +21,7 @@ ul, li {
     margin: 0 auto;
 }
 
-header a {
+.header a {
     color: #000;
     font-size: 14px;
     text-transform: uppercase;
@@ -67,26 +67,29 @@ header a {
     font-family: open sans, regular;
 }
 
-.bannerTextTitle {
-    font-size: 35px;
-    letter-spacing: -1px;
-    line-height: 24px;
+.banner-text {    
     color: #ffffff;
     text-align: center;
     word-spacing: 5px;
+    height: 53px;
+    width: 721px;
+    margin-left: 227px;
 }
 
-.bannerTextUnderTitle {
-    letter-spacing: -1px;
+.bannerTextTitle {
+    font-size: 35px;    
     line-height: 24px;
-    color: #ffffff;
-    text-align: center;
-    word-spacing: 5px;
+}
+
+.bannerTextUnderTitle {    
+    font-family: open sans, light;
+    text-transform: none;
 }
 
 .requestQuote {    
     display: flex;
     margin-top: 32px;
+    margin-left: 40px;
 }
 
 .labelForData {    
@@ -121,4 +124,186 @@ header a {
 
 .btn-request-quote:not(:disabled):not(.disabled) {
     cursor: pointer;
+}
+
+.banner-laptop {
+    background: url('../img/banner-laptop.png') no-repeat center top;
+    margin-top: 67px;
+}
+
+.page-on-laptop {
+    height: 265px;
+    width: 446px;
+    padding-top: 17px;
+    padding-left: 101px;
+    padding-right: 100px;
+    padding-bottom: 61px;
+    margin-left:262px;
+}
+
+.service {
+    font-family: open sans, regular;
+}
+
+.service-head {
+    margin-top: 103px;
+    font-size: 29px;
+    letter-spacing: -1px;
+    color: #394b50;
+    text-align: center;
+    line-height: 31px;
+}
+
+.service-undertitle {    
+    line-height: 18px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: none;    
+    font-family: open sans, regular;
+}
+
+.type-of-services {
+    margin-top: 93px;
+}
+
+.pair-services {    
+    display: flex;
+    vertical-align: top;
+}
+
+.service {
+    padding: 0%;
+    display: flex;
+    margin-right: 108px;
+    margin-bottom: 80px;
+}
+
+
+.services-icon {
+    height: 44px;
+    width: 43px;
+    margin-right: 39px;
+}
+
+.services-title {
+    font-size: 16px;
+    line-height: 22px;
+    color: #394b50;
+    font-weight: 700;
+    font-family: "Lato";
+}
+
+.services-text {
+    margin-top: 21px;
+    width: 427px;
+    height: 70px;
+    font-size: 13px;
+    line-height: 22px;
+    color: #7b7b7b;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-transform: none;
+}
+
+.service-3-icon {    
+    height: 40px;
+    width: 58px;
+    margin-right: 23px;
+}
+
+.service-4-icon {    
+    height: 47px;
+    width: 46px;
+    margin-right: 35px;
+}
+
+.service-5-icon {    
+    height: 43px;
+    width: 43px;
+    margin-right: 39px;
+}
+
+.service-6-icon {    
+    height: 51px;
+    width: 27px;
+    margin-right: 39px;
+}
+
+.service-3 {
+    padding: 0%;
+    display: flex;
+    margin-right: 94px;
+    margin-bottom: 80px;
+}
+
+.service-3-text {
+    margin-top: 21px;
+    width: 442px;
+    height: 70px;
+    font-size: 13px;
+    line-height: 22px;
+    color: #7b7b7b;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-transform: none;
+}
+
+.service-5 {
+    padding: 0%;
+    display: flex;
+    margin-right: 135px;
+    margin-bottom: 80px;
+}
+
+.service-5-text {
+    margin-top: 21px;
+    width: 416px;
+    height: 70px;
+    font-size: 13px;
+    line-height: 22px;
+    color: #7b7b7b;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-transform: none;
+}
+
+.about-us {
+    background: url('../img/about-us-background.png') no-repeat center top;
+    display: flex;
+}
+
+.about-us-img {
+    width: 850px;
+    height: 623px;
+    margin-right: 80px;
+}
+
+.about-us-textblock {
+    color: #fff;
+    line-height: 24px;    
+    font-family: "Open Sans";
+    text-decoration: none;
+    margin-top: 165px;
+}
+
+.about-us-title {
+    font-size: 30px;
+    letter-spacing: -1px;
+    line-height: 22px;
+    font-weight: 800;
+}
+
+.about-us-text {
+    width: 505px;
+    height: 218px;
+    font-size: 13px;
+    font-weight: 400;    
+    margin-top: 28px;
+}
+
+.about-us a {    
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
 }
