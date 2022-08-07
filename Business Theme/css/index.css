@@ -23,6 +23,7 @@ ul, li {
 
 .header a {
     color: #000;
+    font-family: "Lato";
     font-size: 14px;
     text-transform: uppercase;
     text-decoration: none;
@@ -30,11 +31,11 @@ ul, li {
 
 .menu {
     display: flex;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
-.menu li a {
-    margin-right: 20px;
+.menu li {
+    margin-right: 33px;
 }
 
 .nav {
@@ -267,14 +268,26 @@ ul, li {
     text-transform: none;
 }
 
+.service-right-text {
+    margin-top: 21px;
+    width: 477px;
+    height: 70px;
+    font-size: 13px;
+    line-height: 22px;
+    color: #7b7b7b;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-transform: none;
+}
+
 .about-us {
     background: url('../img/about-us-background.png') no-repeat center top;
     display: flex;
 }
 
 .about-us-img {
-    width: 850px;
-    height: 623px;
+    width: 50%;
+    height: 50%;
     margin-right: 80px;
 }
 
@@ -297,13 +310,28 @@ ul, li {
     width: 505px;
     height: 218px;
     font-size: 13px;
+    line-height: 24px;
     font-weight: 400;    
     margin-top: 28px;
+    text-transform: none;
 }
 
 .about-us a {    
-    color: #fff;
     font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Lato";
     text-transform: uppercase;
-    text-decoration: none;
+    text-decoration: none;    
+    height: 46px;
+    width: 145px;
+    text-align: center;
+    margin-top: 7px;
+    padding-left: 33px;
+    padding-top: 17px;
+    padding-right: 32px;
+    padding-bottom: 18px;
+    color: #fff;
+    border: 1px solid #e7ad47;
+    border-radius: 1px;
 }
