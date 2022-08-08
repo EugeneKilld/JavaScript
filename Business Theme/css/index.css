@@ -341,6 +341,11 @@ ul, li {
     border-radius: 1px;
 }
 
+.choose-your-pricing {
+    background-color: #e7edf3;
+    padding-top: 137px;
+}
+
 .choose-your-pricing-head {  
     font-size: 24px;
     letter-spacing: -1px;
@@ -357,15 +362,11 @@ ul, li {
     color: #75888d;   
 }
 
-.choose-your-pricing {
-    background-color: #e7edf3;
-    padding-top: 137px;
-}
-
 .plan-of-subscribe {
     margin-top: 48px;
     display: flex;
     align-items: center;
+    padding-bottom: 164px;
 }
 
 .basic-plan {
@@ -484,3 +485,80 @@ ul, li {
     margin-bottom: 33px;
     color: #fff;
 }
+
+.how-it-work {
+    background-color: #ffffff;
+    padding-top: 153px;
+    padding-bottom: 285px;
+}
+
+.how-it-work-head {  
+    font-size: 24px;
+    letter-spacing: -1px;
+    color: #394b50;
+    font-weight: 800;
+    font-family: open-sans, regular; 
+    text-align: center;
+}
+
+.how-it-work-undertitle {
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: none; 
+    color: #75888d;   
+}
+
+.how-it-work-steps-img {
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin-top: 124px;
+}
+
+.how-it-work-steps {
+    display: flex;
+    margin-top: 271px;
+    margin-left: 22px;
+}
+
+.how-it-work-step {
+    margin-right: 72px;
+}
+
+.how-it-work-step-text {
+    font-size: 20px;
+    color: #394b50;
+    font-weight: 700;
+    font-family: "Lato";
+    text-align: center;
+}
+
+.how-it-work-step-undertext {
+    margin-top: 28px;
+    width: 228px;
+    font-size: 13px;
+    color: #7b7b7b;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+.how-it-work-get-start-button {    
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);    
+    margin-top: 108px;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    background-color: #ffbb42;
+    padding-left: 22px;
+    padding-top: 12px;
+    padding-right: 22px;
+    padding-bottom: 12px;
+}
+
