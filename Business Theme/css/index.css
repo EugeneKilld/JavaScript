@@ -509,17 +509,15 @@ ul, li {
 }
 
 .how-it-work-steps-img {
-    position: absolute;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    margin-top: 124px;
+    margin-left: 100px;
+    margin-top: 72px;
 }
 
 .how-it-work-steps {
     display: flex;
-    margin-top: 271px;
+    margin-top: 67px;
     margin-left: 22px;
+    margin-bottom: 92px;
 }
 
 .how-it-work-step {
@@ -541,14 +539,11 @@ ul, li {
     color: #7b7b7b;
     font-family: "Open Sans";
     text-align: center;
+    text-transform: none;
 }
 
-.how-it-work-get-start-button {    
-    position: absolute;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);    
-    margin-top: 108px;
+.how-it-work-get-start-button {
+    margin-left: 513px;
     font-size: 14px;
     text-transform: uppercase;
     text-decoration: none;
@@ -562,3 +557,112 @@ ul, li {
     padding-bottom: 12px;
 }
 
+.happy-clients {
+    background-color: #ffc155;
+    padding-top: 153px;
+    padding-bottom: 160px;
+}
+
+.happy-clients-head {  
+    font-size: 24px;
+    letter-spacing: -1px;
+    font-weight: 800;
+    font-family: open-sans, regular; 
+    text-align: center;
+}
+
+.happy-clients-title {
+    color: #fff;
+}
+
+.happy-clients-undertitle {
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: none; 
+    color: #fff; 
+    margin-bottom: 57px;  
+}
+
+.clients-line-1 {
+    display: flex;
+    margin-bottom: 19px;
+}
+
+.clients-line-2 {
+    display: flex;
+}
+
+.client-1 {
+    margin-right: 35px;
+    width: 568px;
+    height: 242px;
+    background-color: #fff;
+}
+
+.client-2 {
+    width: 568px;
+    height: 242px;
+    background-color: #fff;
+}
+
+.client-photo-and-comment {
+    display: flex;
+    padding-top: 43px;
+    padding-left: 30px;
+}
+
+.client-photo {
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    margin-right: 13px;
+}
+
+.client-comment {
+    padding-left: 18px;
+    width: 345px;
+    height: 113px;
+    font-size: 13px;
+    line-height: 22px;
+    color: #7b7b7b;
+    font-family: "Open Sans";
+    margin-top: 9px;
+    text-transform: none;
+    background: url('../img/quotes.png') no-repeat ;
+}
+
+.client-comment-2 {
+    padding-left: 18px;
+    width: 345px;
+    height: 113px;
+    font-size: 13px;
+    line-height: 22px;
+    color: #7b7b7b;
+    font-family: "Open Sans";
+    margin-top: 9px;
+    text-transform: none;
+    background: url('../img/quotes-2.png') no-repeat ;
+}
+
+.client-name-and-job {
+    display: flex;
+    padding-left: 182px;
+    margin-top: 25px;
+}
+
+.client-name {
+    font-size: 14px;
+    line-height: 22px;
+    color: #f6772c;
+    font-weight: 400;
+    font-family: "Lato";
+    margin-right: 5px;
+}
+
+.client-job {
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Lato";
+}
