@@ -16,6 +16,14 @@ ul, li {
     display: block;
 }
 
+.header {
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    height: 91px;
+    border-bottom: 2px solid #dddddd;
+}
+
 .container {
     width: 1170px;
     margin: 0 auto;
@@ -78,8 +86,7 @@ ul, li {
 }
 
 .bannerTextTitle {
-    font-size: 35px;    
-    line-height: 24px;
+    font-size: 35px;
 }
 
 .bannerTextUnderTitle {    
@@ -148,18 +155,16 @@ ul, li {
 
 .service-head {
     margin-top: 103px;
-    font-size: 29px;
+    font-size: 28px;
     letter-spacing: -1px;
-    color: #394b50;
     text-align: center;
-    line-height: 31px;
 }
 
-.service-undertitle {    
-    line-height: 18px;
-    font-size: 15px;
+.service-undertitle {   
+    font-size: 16px;
     letter-spacing: 1px;
-    text-transform: none;    
+    text-transform: none;
+    color: #394b50;  
     font-family: open sans, regular;
 }
 
@@ -287,7 +292,7 @@ ul, li {
 
 .about-us-img {
     width: 50%;
-    height: 50%;
+    height: 622px;
     margin-right: 80px;
 }
 
@@ -334,4 +339,148 @@ ul, li {
     color: #fff;
     border: 1px solid #e7ad47;
     border-radius: 1px;
+}
+
+.choose-your-pricing-head {  
+    font-size: 24px;
+    letter-spacing: -1px;
+    color: #394b50;
+    font-weight: 800;
+    font-family: open-sans, regular; 
+    text-align: center;
+}
+
+.choose-your-pricing-undertitle {
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: none; 
+    color: #75888d;   
+}
+
+.choose-your-pricing {
+    background-color: #e7edf3;
+    padding-top: 137px;
+}
+
+.plan-of-subscribe {
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+}
+
+.basic-plan {
+    display: block;
+    border: 1px solid #cbd5df;
+    width: 392px;
+    height: 442px;
+    border-radius: 3px;
+    text-align: center;
+    font-family: Lato, Light;
+}
+
+.premium-plan {
+    display: block;
+    width: 396px;
+    height: 502px;
+    background-color: #709dca;
+    border-radius: 3px;
+    text-align: center;
+    font-family: Lato, Light;
+}
+
+.gold-plan{
+    display: block;
+    border: 1px solid #cbd5df;
+    width: 392px;
+    height: 442px;
+    border-radius: 3px;
+    text-align: center;
+    font-family: Lato, Light;
+}
+
+.plan-of-subcribe-name {
+    margin-top: 58px;
+    font-size: 30px;
+    color: #818b95;
+}
+
+.cost-plan-of-subcribe {
+    margin-top: 30px;
+    font-family: Lato, Bolt;
+    font-size: 35px;
+    color: #ffbb42;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 155px;
+}
+
+.dollar-sign {
+    font-size: 30px;
+}
+
+.per-month {
+    font-size: 20px;
+    color: #818b95;
+    margin-bottom: 15px;
+}
+
+.plan-of-subscribe-text {
+    font-size: 14px;
+    margin-top: 14px;
+}
+
+.hr-line {
+	margin-left: 10%;
+    margin-right: 10%;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 1px solid rgb(216, 216, 216);
+}
+
+.plan-of-subscribe-info {
+    margin-bottom: 33px;
+}
+
+.get-started-button {
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    background-color: #ffbb42;
+    padding-left: 22px;
+    padding-top: 12px;
+    padding-right: 22px;
+    padding-bottom: 12px;
+}
+
+.plan-of-subcribe-name-premium {
+    margin-top: 88px;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.cost-plan-of-subcribe-premium {
+    margin-top: 30px;
+    font-family: Lato, Bolt;
+    font-size: 35px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 155px;
+}
+
+.per-month-premium {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.plan-of-subscribe-info-premium {    
+    margin-bottom: 33px;
+    color: #fff;
 }
