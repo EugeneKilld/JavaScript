@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@consta/uikit": "^3.29.0"
+  }
+}

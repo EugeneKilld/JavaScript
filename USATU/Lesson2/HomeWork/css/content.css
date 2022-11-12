@@ -1,0 +1,249 @@
+.content {
+    background: url(/Lesson2/HomeWork/img/banner.png) no-repeat center top;
+    padding-top: 490px;
+    padding-bottom: 100px;
+}
+
+.content-main {
+    margin-right: 130px;
+}
+
+.news {
+    height: 411px;
+    margin-bottom: 30px;
+}
+
+.smallNews {
+    border-bottom: 2px solid #E5E5E5; 
+}
+
+.news-title {
+    text-align: center;
+}
+
+.news-title-direction, .ribbon-news-title-direction {
+    margin-bottom: 6px;
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+.ribbon-news-title-direction {    
+    margin-bottom: 4px;
+}
+
+.news-title-text, .big-news-title-text, .ribbon-news-title-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 11px;
+}
+
+.news-title-text {
+    width: 285px;
+}
+
+.ribbon-news-title-text {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 10px;
+    width: 250px;
+}
+
+.news-signature, .ribbon-news-signature {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    width: 166px;
+    height: 16px;
+}
+
+.ribbon-news-signature {
+    margin-bottom: 14px;
+}
+
+.big-news {
+    width: 770px;
+    height: 561px;
+    margin-bottom: 19px;    
+    border-bottom: 2px solid #E5E5E5; 
+}
+
+.big-news-title {    
+    width: 770px;
+    height: 212px;
+    margin-left: 31px;
+    margin-bottom: 25px;
+}
+
+.big-news-signature {
+    margin-bottom: 14px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;  
+    width: 243px;
+    height: 16px;
+}
+
+.big-news-content {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    width: 614px;
+    height: 72px;
+}
+
+.content-rightRibbon {
+    width: 270px;
+    height: 2566px;
+}
+
+.btn {
+    width: 270px;
+    height: 50px;
+    border: 1px solid #E5E5E5;
+    background-color: white;
+    text-align: center;
+    font: sans-serif; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.ribbon-news-authorName {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+
+.news-style-italic {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #B1B1B1;
+    margin-bottom: 14px;
+}
+
+.ribbon-news-text {
+    width: 230px;
+    height: 72px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+    margin-bottom: 14px;
+}
+
+.reference {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;  
+    margin-top: 12px;
+    margin-bottom: 12px;  
+}
+
+.category {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #666666;
+    height: 52px;
+}
+
+.border {    
+    width: 270px;
+    border: 1px solid #E5E5E5;
+}
+
+.media-btn {
+    width: 88px;
+    height: 88px;
+    border: 0;
+    background: #F8F9FA;
+}
+
+.media-btn-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #999999;
+    margin-top: 6px;
+}
+
+.tag {     
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #666666;
+    background: #F8F9FA;
+    padding: 6px 15px;   
+    border: 0;
+}
+
+.pagination {
+    display: inline-block;    
+    border: 1px solid #E5E5E5;
+}
+
+.page-item {
+    font-family: 'HK Grotesk';
+    font-size: 16px;
+    line-height: 16px;
+    color: #171717;
+    float: left;
+    padding: 8px 16px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.pagination li:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+.insta-name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    padding-bottom: 40px;
+    color: #171717;
+}
+
+.photo {
+    width: 200px;
+    height: 200px;
+    transition-duration: 0.6s;
+}
+
+.photo:hover {    
+    width: 250px;
+    height: 250px;
+}
+
+button {
+    transition-duration: 0.6s;
+}
+
+button:hover {
+    background-color: #e0c591;
+}

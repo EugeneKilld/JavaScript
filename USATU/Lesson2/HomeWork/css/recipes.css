@@ -1,0 +1,16 @@
+.recipes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recipes-posts {
+    margin-bottom: 10px;
+}
+
+.recipes-post-title {    
+    font-family: 'PT Sans';
+    color: #C9A96E;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 26px;
+}
