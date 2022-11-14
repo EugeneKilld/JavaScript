@@ -1,13 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
-
-import { Button } from '@consta/uikit/Button';
 import './App.css';
+import {Routers} from "./core/pages/Routes";
 
 function App() {
   return (
     <div className="App">
-      <Button label="Кнопка" />      
+      <Routers />
     </div>
   );
 }
