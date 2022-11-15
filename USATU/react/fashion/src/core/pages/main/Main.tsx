@@ -1,11 +1,11 @@
 import React from "react"
-import { Button } from "@consta/uikit/Button"
-import { Header } from "../../../components/header/Header";
+import { Header, Content } from "../../../components";
 
 export const Main = () => {
     return (
         <>
             <Header />
+            <Content />
         </>
     )
 }

@@ -9,14 +9,14 @@
     padding: 0px 80px;
 }
 
-.header-leftSide {
+.headerLeftSide {
     letter-spacing: 2.5px;
     font-size: 25px;
     font-weight: bold;
     text-transform: uppercase;
 }
 
-.header-rightSide {
+.headerRightSide {
     height: 19px;
     width: 500px;
     text-decoration: none;
