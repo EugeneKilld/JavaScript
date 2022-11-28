@@ -1,7 +1,7 @@
 const aboutUsModal = $.createAboutUsModal()  
 const recipesModal = $.createRecipesModal()  
 
-const aboutUsBtn = document.getElementById('aboutUs')
+const aboutUsBtn = document.getElementById('aboutUsModal')
 const contactsBtn = document.getElementById('contacts')
 const recipesBtn = document.getElementById('recipes')
 

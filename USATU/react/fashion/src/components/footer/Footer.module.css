@@ -1,0 +1,53 @@
+.footerMenu {
+    height: 18px;
+    width: 353px;
+}
+
+.footerMenuText {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.circleBtn {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 1px solid #E5E5E5;
+    background-color: white;
+}
+
+.footerMedia {
+    width: 304px;
+}
+
+.footerCompanyName {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 33px;
+    letter-spacing: 2.5px;
+    color: #171717;
+    text-transform: uppercase;
+}
+
+.footerSignature {
+    width: 1170px;
+    height: 77px;
+    border-top: 1px solid #E5E5E5;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.menu li a {
+    cursor: pointer;
+    transition-duration: 0.6s;
+}
+
+.menu li a:hover {
+    color: #C9A96E;
+}

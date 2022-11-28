@@ -51,11 +51,11 @@ code {
 }
 
 .font-sans {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', serif;
 }
 
 .font-serif {
-  font-family: 'PT Serif';
+  font-family: 'PT Serif', sans-serif;
 }
 
 a {
@@ -123,6 +123,26 @@ a {
   margin-right: 30px;
 }
 
+.m-r-130 {
+  margin-right: 130px;
+}
+
 .border-bottom {
   border-bottom: 1px solid #E5E5E5;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn {
+  width: 270px;
+  height: 50px;
+  border: 1px solid #E5E5E5;
+  background-color: white;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
 }
