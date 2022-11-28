@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@consta/uikit": "^3.29.0",
+    "@reduxjs/toolkit": "^1.9.0"
+  }
+}

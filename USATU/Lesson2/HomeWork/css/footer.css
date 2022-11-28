@@ -1,0 +1,40 @@
+.footer-menu {
+    height: 18px;
+    width: 353px;
+}
+
+.footer-menu-text {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.circle-btn {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 1px solid #E5E5E5;
+    background-color: white;
+}
+
+.footer-media {
+    width: 304px;
+}
+
+.footer-company-name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 33px;
+    letter-spacing: 2.5px;
+    color: #171717;
+    text-transform: uppercase;
+}
+
+.footer-signature {
+    width: 1170px;
+    height: 77px;
+    border-top: 1px solid #E5E5E5;
+}

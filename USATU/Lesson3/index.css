@@ -1,0 +1,29 @@
+.container {
+    /* position: absolute; //выдирает объект из потока до ближайшего relative или */
+    /* position: relative; //не выдирает*/
+    /* position: sticky; //прилипает к окну */
+    /* z-index: 0; //0<1 */
+    /* display: block; //из строчноко элемента -> в блочный */
+    display: flex; /*из блочного -> в флексовый*/
+    height: 100vh;
+}
+
+.container2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin-right: 10px;
+}
+
+.container3 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-right: 10px;
+}
+
+.container4 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
